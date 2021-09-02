@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> App Platform</title>
+<!-- custom-theme -->
+<meta name="viewport" 
+content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8" />
+
+<link href="css/AppStyle.css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+<script src="https://kit.fontawesome.com/32421ccbbc.js" crossorigin="anonymous"></script>
+<style>
+
+</style>
+</head>
+	
+<body>
+<div class="main">
+<div class="cover">
+
+
+
+<div class="infobar">
+ <div class="date-time">
+ <a href="menupage.html">
+ <i class="fas fa-bars"> Menu</i>
+ </a>
+ <div class="app_title">HSBR&GM</div>
+<div style="clear:both"></div>
+</div></div>
+<div style="clear:both"></div>
+
+
+
+<div class="entryform">
+<center>
+<form method="POST" >
+{% csrf_token %}
+{{form.as_p}}
+<input type="submit" value="{{submitdata}} ">
+</form>
+</center>
+</div>
+
+
+
+
+
+
+<div style="clear:both"></div>
+</div></div>
+
+</body>
+</html>

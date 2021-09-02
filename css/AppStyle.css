@@ -1,0 +1,257 @@
+/*--
+Author: Amodeni Oluwaseun
+Author: HiitPLC .27 Awolow way .Ikeja .Lagos.Nigeria
+--*/
+html,body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family:'Open Sans', sans-serif;
+ }
+ 
+@keyframes change {
+    30% {background-image: url(../images/backgrounds/3.jpg;}
+    50%  {background-image: url(../images/backgrounds/4.jpg);}
+    80% {background-image: url(../images/backgrounds/5.jpg);}
+}
+
+.main {
+	position:fixed;top:0;left:0;
+	margin:0;padding:0;
+   background-image:url(../images/backgrounds/2.jpg);
+     width: 100vw;
+    height:100vh;
+	/**/overflow:scroll;
+    background-size:cover;
+    position: relative;
+    animation: change 5s linear 1s infinite;
+}
+
+ .cover {
+
+	margin:0;padding:0;
+    /*background:rgba(34,1,3,0.8);*/
+	background-image:linear-gradient(to right, rgba(34,1,3,0.9), rgba(152,75,1,0.8));
+    width: 100%;    
+	 height:100%;overflow:scroll;
+ }
+ 
+  .infobar {
+background:rgba(34,1,3,0.7);
+margin:0px;
+padding:20px;text-align:center;
+  }
+   .infobarcontent{
+margin:0px;
+  }
+     .infobarcontent a{
+text-decoration:none;
+  }
+  
+.line1,.line2,.line3,.line4{cursor:pointer;
+border:solid 0.08em rgba(34,1,3,0.3);
+}
+
+.line1:hover,.line2:hover,.line3:hover,.line4:hover{
+background:#f0f3f4;
+border:solid 0.08em  #d68910;
+}
+ .infobarcontent .line1{
+float:left;width:100%;
+color: #effb94 ;padding-bottom:20px;
+  }
+  
+
+.infobarcontent .line1:hover{color:#d68910;}
+.infobarcontent .line2:hover{color:#d68910;}
+.infobarcontent .line3:hover{color:#d68910;}
+.infobarcontent .line4:hover{color:#d68910;}
+
+.infobarcontent .line1:hover h2{ color:#d68910;}
+.infobarcontent .line2:hover h2{color:#d68910;}
+.infobarcontent .line3:hover h2{color:#d68910;}
+.infobarcontent .line4:hover h2{color:#d68910;}
+
+
+.infobarcontent .line2{
+float:left;width:30%;margin-left:22px;
+color:#f7cdf8;padding-bottom:20px;
+  }
+.infobarcontent .line2 h2{
+color:#fc8f04;
+  }  
+  
+ .infobarcontent .line3{
+float:left;width:31%;
+margin-left:22px;
+color:#8facfc;
+padding-bottom:20px;
+  }
+   .infobarcontent .line3 h2{
+color:#ff4758;
+  }
+  
+ .infobarcontent .line4{
+float:left;width:31%;margin-left:22px;
+color:#53fa45;padding-bottom:20px;
+  }
+   .infobarcontent .line4 h2{
+color:#cb7cff;
+  }  
+.date-time {
+background:rgba(66,55,49,0.7);
+margin:0px;
+padding:40px;text-align:center;
+color:#d68910;
+font-size:3em;
+  }
+ 
+.date-time .dt-time {color:#2ecc71;
+} 
+.dt-time-ampm {color:#85929e;
+} 
+
+.date-time .app_title {
+	word-wrap:break-word;
+display:block;background:;
+width:100%;
+margin:0px;padding:0px;
+text-align:center;color:#fff;
+font-size:32px;
+  }
+.date-time .app_title_dsc {
+	word-wrap:break-word;
+	display:block;background:;
+margin:0px;padding:4px;text-align:center;
+color:lightgray;width:100%;
+font-size:27px;
+  }
+  .date-time a {
+text-decoration:none;
+color:#fff;font-size:20px;
+  }
+   .iconbar {
+background:;
+margin:0px;
+padding:60px;
+text-align:center;
+height:auto;
+  }
+   .iconbarcontent{
+margin:0px;
+width:100%;
+  }
+     .iconbarcontent a{
+text-decoration:none;
+  } 
+ .iconbarcontent .icons{
+float:left;
+width:23%;
+text-align:center;
+line-height:35px;
+box-shadow:3px 3px 4px #000;
+margin:0px 8px 8px 0px;
+border:solid 1px rgba(66,55,49,0.7);
+font-weight:bolder;
+color:#fff;
+cursor:pointer;
+  }
+  
+   .iconbarcontent .icons h4{
+color: #e56925;font-size:2em;
+  }
+    .iconbarcontent .icons{
+color:;
+  } 
+.iconbar .iconbarcontent .icons:hover{
+	border:solid 1px #ffd77c;
+	color:#ffd77c;
+	}
+ 
+.clear{clear:both;}
+.casing{
+	padding:0px;margin:0px;   	
+	text-align:center;
+    
+	}
+.entryform{
+	padding:0px;margin:0px;   	
+	text-align:center;
+     border:solid 2px  yellow;
+	
+	}
+	
+	
+.entryform form{
+	width:40%;	
+	font-weight:bolder;
+	border:solid 1px  #580303;
+	color:#580303;
+	border-radius:15px;
+	padding:20px;
+	text-align:center;
+
+	
+	}
+
+.entryform input[type="submit"]{
+	display:block;	font-weight:bolder
+	border:solid 1px  #580303;
+	color: #580303;	border-radius:20px;
+	width:90%;	padding:20px;
+	text-align:center;cursor:pointer;
+	transition: background 0.8s;
+	} 
+	
+
+.entryform input[type="submit"]:hover{
+background:#580303;
+color:#fff;	
+	}	
+	
+	
+	
+	
+	
+@media all and (max-width:650px){	
+ .iconbarcontent .icons{
+float:none;
+width:80%;
+
+  }
+.infobarcontent .line1{
+float:none;width:90%;
+margin-left:2px;
+
+  }
+  
+  .infobarcontent .line2{
+float:none;width:90%;
+margin-left:2px;
+
+  }   
+  .infobarcontent .line3{
+float:none;width:90%;
+margin-left:2px;
+
+  } 
+  
+.infobarcontent .line4{
+float:none;width:90%;
+margin-left:2px;
+
+  }  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
