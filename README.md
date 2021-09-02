@@ -1,2 +1,3 @@
 # appwebfiles
-Application web files for mobile hotal app
+Application web files for mobile hotel app
+This files are a test sample for the hotel application interface
